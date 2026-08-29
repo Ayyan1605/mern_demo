@@ -1,0 +1,43 @@
+a. Create a React application using Vite and display "Welcome to MERN Stack Development"
+
+Step 1: Create React Project
+
+npm create vite@latest my-react-app
+
+Select:
+
+Framework: React
+
+Variant: JavaScript
+
+Install dependencies
+
+cd my-react-app
+
+npm install
+
+Run the project
+
+npm run dev
+
+App.jsx
+
+function App() {
+
+return (
+
+<div>
+
+<h1>Welcome to MERN Stack Development</h1>
+
+</div>
+
+);
+
+}
+
+export default App;
+
+Output
+
+Welcome to MERN Stack Development
